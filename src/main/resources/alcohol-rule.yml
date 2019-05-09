@@ -1,0 +1,6 @@
+name: "alcohol rule"
+description: "children are not allowed to buy alcohol"
+priority: 2
+condition: "person.getAge() == 14"
+actions:
+- "System.out.println(\"Shop: Sorry, you are not allowed to buy alcohol\");"
